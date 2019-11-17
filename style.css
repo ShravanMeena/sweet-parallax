@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+	min-height: 100vh;
+	background: linear-gradient(240deg, #834d4d, #503d3d);
+	position: relative;
+	color: white;
+	z-index: -1;
+}
+
+.intro-header{
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-30%,-50%);
+
+}
+.intro-header h1{
+	font-size: 70px;
+}
+.intro-header h4{
+	font-size: 25px;
+}
+
+.chair-intro{
+	height: 700px;
+	position: absolute;
+	top: 90%;
+	right: 10%;
+	transform: translate(-10%, -90%);
+}
+
+.big-rose{
+	position: absolute;
+	height: 200px;
+	top:5%;
+	right: 40%;
+	z-index: -1;
+}
+
+.small-rose{
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+}
+
+.small-rose1{
+	height: 100px;
+	position: absolute;
+	top: 30%;
+	right: 70%;
+	z-index: -1;
+
+}
+
+.small-rose2{
+	height: 100px;
+	position: absolute;
+	top: 10%;
+	right: 90%;
+	z-index: -1;
+
+}
+.small-rose3{
+	height: 100px;
+	position: absolute;
+	top: 1%;
+	right: 55%;
+	z-index: -1;
+
+}
+.small-rose4{
+	height: 100px;
+	position: absolute;
+	top: 20%;
+	right: 60%;
+	z-index: -1;
+}
+.small-rose5{
+	height: 100px;
+	position: absolute;
+	top: 3%;
+	right: 70%;
+	z-index: -1;
+}
+.small-rose6{
+	height: 100px;
+	position: absolute;
+	top: 15%;
+	right: 80%;
+	z-index: -1;
+}
+.small-rose7{
+	height: 100px;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	z-index: -1;
+}
+section{
+	min-height: 100vh;
+	color: #834d4d;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 60px;
+	font-family: sans-serif;
+	background: lightslategray;
+}
+
+footer{
+	background-color: gray;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 10px;
+	font-family: sans-serif;
+	color: white;
+}
